@@ -1,33 +1,50 @@
 .App {
-  text-align: center;
+  color: white;
+  max-width: 1280px;
+  min-height: 980px;
+  background-color: #313233;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Search-Container {
   display: flex;
-  flex-direction: column;
+  justify-content: 'space-between';
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Search-Filter {
+  display: flex;
+  align-items: left;
+  background-color: #222323;
+  margin-left: 500;
+}
+.killer .Select-control:before {
+  color: #aaa;
+  content: 'Flavors';
+  line-height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+}
+
+.column-select{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.selectRowProp {
+  color: white;
+  line-height: 1;
+  font-size: 1;
+}
+.my-custom-class {
+  line-height: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-icon {
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: right;
 }

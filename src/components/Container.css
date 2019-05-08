@@ -1,0 +1,25 @@
+.Container {
+  color: white;
+  max-width: 1280px;
+  min-height: 960px;
+  background-color: #313233;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.RowHeader {
+	display: flex;
+	justifyContent: center
+}
+
+.RowData {
+	height: 95%;
+}
+
+.ColumnSearch{
+	display: flex;
+	alignItems: center;
+	justifyContent: center;
+}
+

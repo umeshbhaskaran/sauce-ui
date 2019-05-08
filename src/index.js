@@ -3,8 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
+import '../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+// Prevents page refresh by gracefully reloading the website
+// during development
+if (module.hot) {
+  module.hot.accept();
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
